@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{PRODUCT_NAME}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>{{PRODUCT_NAME}}</h1>
+
+  <div class="gallery">
+    <img src="../images/{{IMG1}}">
+    <img src="../images/{{IMG2}}">
+  </div>
+
+  <p class="price">₹{{PRICE}}</p>
+
+  <p class="description">
+    {{PRODUCT_DESCRIPTION}}
+  </p>
+
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="hidden" name="product" value="{{PRODUCT_NAME}}">
+
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Phone</label>
+    <input type="tel" name="phone" required>
+
+    <label>Quantity</label>
+    <input type="number" name="quantity" value="1" min="1">
+
+    <label>Address</label>
+    <textarea name="address" required></textarea>
+
+    <button type="submit">Place Order</button>
+  </form>
+  <a
+    class="whatsapp-btn"
+    href="https://wa.me/91XXXXXXXXXX?text=Hi, I want to order {{PRODUCT_NAME}}"
+    target="_blank">
+    Order on WhatsApp
+  </a>
+</div>
+
+</body>
+</html>
