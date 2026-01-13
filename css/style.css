@@ -50,3 +50,44 @@ button {
   font-size: 16px;
   border-radius: 5px;
 }
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ff4081;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.whatsapp-btn {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 12px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
