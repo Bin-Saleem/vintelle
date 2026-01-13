@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Product Name</h1>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img src="../images/product1-1.jpg">
+    <img src="../images/product1-2.jpg">
+  </div>
+
+  <p class="price">₹999</p>
+
+  <p class="description">
+    Short description of the product goes here.
+  </p>
+
+  <!-- Order Form -->
+  <form action="https://formspree.io/f/XXXXX" method="POST">
+
+    <input type="hidden" name="product" value="Product Name">
+
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Phone</label>
+    <input type="tel" name="phone" required>
+
+    <label>Quantity</label>
+    <input type="number" name="quantity" min="1" value="1">
+
+    <label>Address</label>
+    <textarea name="address" required></textarea>
+
+    <button type="submit">Place Order</button>
+
+  </form>
+
+</div>
+
+</body>
+</html>
