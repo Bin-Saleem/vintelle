@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  background: #fff;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #ff4081;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
